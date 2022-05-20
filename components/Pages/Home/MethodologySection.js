@@ -5,7 +5,7 @@ const MethodologySection = ({methodology}) => {
   const { before_title, title, methods_list } = methodology;
 
   return (
-    <section className='relative pt-72 pb-24 bg-gradient-to-b from-transparent to-ui-gray-light'>
+    <section className='relative pt-0 sm:pt-32 hero-custom:pt-72 pb-24 bg-gradient-to-b from-transparent to-ui-gray-light'>
       <div className='mx-4 sm:mx-8  md:mx-12 mx:mx-20'>
       <h6 className='text-lg md:text-xl text-ui-gray-normal font-medium	 text-center	'>{before_title}</h6>
       <h2 className='text-3xl md:text-5xl	font-semibold	text-ui-black text-center	'>{title}</h2>
