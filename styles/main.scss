@@ -1,0 +1,14 @@
+@import "./global";
+
+//Components
+@import "./components/navbar-desktop";
+@import "./components/navbar-mobile";
+
+//By Pages
+//Home
+@import "./pages/home/hero";
+@import "./pages/home/methods";
+@import "./pages/home/services";
+@import "./pages/home/blog-posts";
+
+@import "./components/navbar-desktop.scss";

@@ -1,0 +1,69 @@
+.services-section {
+    min-height: 100vh;
+    background: theme('colors.ui.black');
+    background-image: url('/img/images/home-bg-services.jpg');
+    background-image: 
+    radial-gradient(circle at center, rgba(26, 26, 26, .95), theme('colors.ui.black')),
+    url('/img/images/home-bg-services.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        
+        @screen md {
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+
+        }
+
+        &-item {
+            &--img {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                margin: 0 auto;
+                background:none;
+                position: relative;
+
+                
+
+                & > img {
+                    width: 100%;
+                    transition: 0.5s all ease-in-out;
+                    z-index: 1;
+                    transition: all .3s;
+                }
+
+                & > .hoverable {
+                    position: absolute;
+                    background-color: transparent;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    z-index: 2;
+                    transition: all .3s;
+                }
+            }
+
+            &:hover &--img { 
+                & > img {
+                    transform: scale(1.2);
+                }
+
+                & > .hoverable {
+                    background-color: rgba(248, 69, 37, .5);
+                }
+
+
+            }
+        }
+
+    }
+}

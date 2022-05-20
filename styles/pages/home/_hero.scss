@@ -1,0 +1,144 @@
+//SECTION 1
+.hero-content {
+    z-index: 3;
+}
+
+.hero-svg{
+    position: absolute;
+    
+    z-index: 0;
+    top: -100px;
+    right: -500px;
+max-height: 500px;
+
+    @screen lg {
+        top: -100px;
+        right: -400px;
+        min-height: 800px;
+    }
+}
+
+
+.hero-mobile-images {
+    position: relative;
+    min-height: 25rem;
+
+    @screen hero-custom {
+        display: none;
+    }
+
+    &__laptop {
+
+    }
+
+    &__card {
+        position: absolute;
+        max-width: 200px;
+        height: 120px;
+        overflow: hidden;
+        background-color: white;
+        left: 15px;
+        top: 160px;
+        @screen sm {
+            top: 260px;
+        }
+
+        @screen md {
+            top: 360px;
+        }
+
+        @screen lg {
+            top: 460px;
+        }
+
+        & > div {
+            display: grid;
+            grid-template-columns: min-content auto;
+            padding: 1rem 1rem 0;
+
+            font-size: 14px;
+
+
+            & > span {}
+            & > h6 {}
+            & > p {
+                font-size: 10px;
+                grid-column: 2/3;
+            }
+        }
+
+
+        & > svg {
+            max-width: 100%;
+            position: absolute;
+            top: 0;
+        }   
+    }
+
+}
+
+
+.hero-desktop-images {
+   
+    &__laptop,
+    &__card {
+        display: none;
+        @screen hero-custom {
+            z-index: 2;
+            display: block;
+        }
+    }
+
+
+    &__laptop {
+        //display: none;
+        @screen hero-custom {
+            //display: block;
+            width: 500px;
+            height: auto;
+            position: absolute;
+            right: -100px;
+        }
+    }
+
+    &__card  {
+        //display: none;
+        
+
+
+        @screen hero-custom {
+            //display: block;
+            position: absolute;
+            max-width: 200px;
+            height: 120px;
+            overflow: hidden;
+            background-color: white;
+            right: 240px;
+            top: 350px
+        }
+
+        & > div {
+            display: grid;
+            grid-template-columns: min-content auto;
+            padding: 1rem 1rem 0;
+
+            font-size: 14px;
+
+
+            & > span {font-weight: 600;}
+            & > h6 {font-weight: 600;}
+            & > p {
+                font-size: 10px;
+                grid-column: 2/3;
+            }
+        }
+
+
+        & > svg {
+            position: absolute;
+            top: 22px;
+        }   
+    }
+
+}
+
