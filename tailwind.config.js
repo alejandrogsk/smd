@@ -24,6 +24,7 @@ module.exports = {
           "gray": {
             "main":"#C4C4C4",
             "light":"#ECECEC",
+            "extra_light":"#F5F5F5"
           },
           "white":"#fff"
         }
