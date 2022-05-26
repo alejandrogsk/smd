@@ -11,7 +11,7 @@ const HeroSection = ({data}) => {
       <div className="md:row-start-2	 md:row-end-3">
               {
                 content.map((paragraph,i) => (
-                  <p key={i} className="pt-2 text-xl">
+                  <p key={i} className="pt-2 text-l md:text-xl">
                     {paragraph}
                   </p>
                 ))

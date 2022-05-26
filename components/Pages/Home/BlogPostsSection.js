@@ -9,7 +9,7 @@ const BlogPostsSection = ({ blog }) => {
                 <h6 className="text-lg md:text-xl text-ui-black font-medium	 text-start capitalize	">
                     {before_title}
                 </h6>
-                <h2 className="text-3xl md:text-5xl	font-semibold	text-ui-black text-start	">
+                <h2 className="text-3xl md:text-4xl lg:text-5xl	font-semibold	text-ui-black text-start	">
                     {title}
                 </h2>
 
