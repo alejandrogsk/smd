@@ -3,7 +3,7 @@
 //Components
 @import "./components/navbar-desktop";
 @import "./components/navbar-mobile";
-
+@import "./components/slider";
 //By Pages
 //Home
 @import "./pages/home/hero";
@@ -12,5 +12,7 @@
 @import "./pages/home/blog-posts";
 //Ecommerce
 @import "./pages/ecommerce/service-item";
+@import "./pages/ecommerce/mobile-section";
+@import "./pages/ecommerce/platforms";
 
 @import "./components/navbar-desktop.scss";

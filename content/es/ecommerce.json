@@ -82,14 +82,27 @@
         ]
     },
     "mobile_content": {
-        "title": "",
-        "subtitle": "",
-        "images": [],
-        "title_two":"",
-        "subtitle_two":""
+        "title": "Diseño Móvil",
+        "subtitle": "En todos nuestros diseños hacemos especial énfasis en el diseño para tablets y smartphones.",
+        "img_url": "/img/images/ecommerce-mockup.png",
+        "images": [
+            "/img/images/ecommerce-mockup-en-1.png",
+            "/img/images/ecommerce-mockup-en-2.png",
+            "/img/images/ecommerce-mockup-en-3.png"
+        ],
+        "title_two":"Más de un 60% de las compras por internet se realizan desde un smartphone",
+        "subtitle_two":"De ahí la importancia del diseño móvil en todo proyecto de ecommerce."
     },
     "platforms": {
-        "images": [],
-        "content": ""
+        "img_url":"/img/images/ecommerce-page-1.jpg",
+        "images": [
+            "/img/images/ecommerce-shopify.png",
+            "/img/images/ecommerce-woocommerce.png"
+        ],
+        "content": [
+            "Trabajamos con las plataformas más populares de la industria y también realizamos desarrollo a medida si es necesario.",
+            "Siempre ponemos lo mejor de nosotros y aconsejamos a nuestros clientes sobre cuáles son sus mejores opciones según su caso particular.",
+            "Si lo que desea es dar el siguiente paso en su proyecto de ecommerce, te invitamos a que nos cuente más acerca de su proyecto."
+        ]
     }
 }
