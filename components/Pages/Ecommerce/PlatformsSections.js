@@ -7,7 +7,7 @@ const PlatformsSections = ({data}) => {
         <img className="ecommerce-patforms__img"src={img_url} alt="agencia especialista en desarrollo de ecommerce" />
 
         <div className="flex flex-col justify-center">
-            <div className="grid grid-cols-2 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-0 mb-12 items-center	">
             {
                 images.map((image, i) => (
                     <img key={i} src={image} />
@@ -16,7 +16,7 @@ const PlatformsSections = ({data}) => {
             </div>
             {
                 content.map((paragraph, i) => (
-                    <p key={i} className="pt-2 text-xl text-white">{paragraph}</p>
+                    <p key={i} className="pt-4 text-xl md:text-2xl text-white">{paragraph}</p>
                 ))
             }
         </div>

@@ -13,7 +13,7 @@ const ServicesSection = ({data}) => {
                     services_list.map((service,i) => (
                         <div key={i} className="bg-white rounded p-4 ecommerce-service__item">
                             <img src={service.img_url} />
-                            <h3 className="text-2xl font-medium	">{service.title}</h3>
+                            <h3 className="text-xl font-medium ">{service.title}</h3>
                             <p>{service.description}</p>
                         </div>
                     ))
