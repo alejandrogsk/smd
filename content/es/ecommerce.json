@@ -26,7 +26,7 @@
             {
                 "img_url":"/img/icons/config-icon.png",
                 "title":"Configuración y mantenimiento",
-                "description":"Dominio, hosting, certificados SSL, todo esto está incluido en el servicio al igual que cualquier problema de configuración"
+                "description":"Dominio, hosting, certificado SSL, todo esto está incluido en el servicio al igual que cualquier problema de configuración"
             },
             {
                 "img_url":"/img/icons/panel-icon.png",
@@ -41,7 +41,7 @@
             {
                 "img_url":"/img/icons/socialmedia-icon.png",
                 "title":"Sincronización con redes sociales",
-                "description":"SIncronizamos los productos de tu tienda con redes sociales como instagram y facebook"
+                "description":"Sincronizamos los productos de tu tienda con redes sociales como instagram y facebook"
             }
 
         ]
@@ -96,7 +96,7 @@
     "platforms": {
         "img_url":"/img/images/ecommerce-page-1.jpg",
         "images": [
-            "/img/images/ecommerce-shopify.png",
+            "/img/images/ecommerce-tiendanube.png",
             "/img/images/ecommerce-woocommerce.png"
         ],
         "content": [

@@ -8,12 +8,13 @@ import ServicesSection from '../components/Pages/Ecommerce/ServicesSection';
 
 
 import EcommerceSpanish from "../content/es/ecommerce.json";
+import EcommerceEnglish from "../content/en/ecommerce.json";
 
-export default function Home({ homeData }) {
+export default function Home({ ecommerceData }) {
   // const { locale } = useRouter();
   // const data = locale === "es" ? HomeSpanish : HomeEnglish;
 
-  const data = EcommerceSpanish;
+  const data = ecommerceData;
   return (
     <div>
     <Head>
@@ -39,11 +40,11 @@ export default function Home({ homeData }) {
 }
 
 
-// export async function getStaticProps({locale}) {
-//   const homeData = locale === "es" ? HomeSpanish : HomeEnglish;
-//   return {
-//     props: {
-//       homeData
-//     }, // will be passed to the page component as props
-//   }
-// }
+export async function getStaticProps({locale}) {
+  const ecommerceData = locale === "es" ? EcommerceSpanish : EcommerceEnglish;
+  return {
+    props: {
+      ecommerceData
+    }, // will be passed to the page component as props
+  }
+}

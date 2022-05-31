@@ -12,6 +12,7 @@ const HeroSection = ({ hero }) => {
       min-h-screen flex flex-col justify-center
       relative
       overflow-x-hidden
+      mt-4 sm:mt-12 lg:mt-0
     "
             >
                 <div className="hero-content mx-4 sm:ml-8  md:ml-12 mx:ml-20 max-w-3xl">
