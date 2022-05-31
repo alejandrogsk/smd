@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const NavigationDesktop = () => {
@@ -44,15 +45,19 @@ const NavigationDesktop = () => {
             </div>
             <nav className="z-10">
                 <ul className="flex flex-row">
+                    <Link href="/">
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         Home
                     </a>
+                    </Link>
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         UX/UI
                     </a>
+                    <Link href="/ecommerce">
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         Ecommerce
                     </a>
+                    </Link>
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         Websites
                     </a>
@@ -146,14 +151,18 @@ const NavigationMobile = () => {
                 </li>
             ))} */}
                         <li className="navbar__responsive--item">
-                            <a className="header__content--link" href="#">
-                                algun enlace
-                            </a>
+                            <Link href="/">
+                                <a className="header__content--link">
+                                    Home
+                                </a>
+                            </Link>
                         </li>
                         <li className="navbar__responsive--item">
-                            <a className="header__content--link" href="#">
-                                algun enlace
-                            </a>
+                            <Link href="/ecommerce">
+                                <a className="header__content--link" href="#">
+                                    Ecommerce
+                                </a>
+                            </Link>
                         </li>
                         <li className="navbar__responsive--item">
                             <a className="header__content--link" href="#">

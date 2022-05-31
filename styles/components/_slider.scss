@@ -8,12 +8,12 @@
 
     &__slide-track {
         display: flex;
-        width: calc(250px * 22);
+        width: calc(250px * 14);
         animation: scroll 40s linear infinite;
     }
 
     &__slide {
-        height: 120px;
+        height: 100px;
         width: 250px;
         display: flex;
         align-items: center;
@@ -21,7 +21,7 @@
     
         & > img {
             width: 100%;
-             height: auto;
+            height: auto;
         }
     }
 }
