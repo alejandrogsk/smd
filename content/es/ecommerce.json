@@ -94,10 +94,20 @@
         "subtitle_two":"De ahí la importancia del diseño móvil en todo proyecto de ecommerce."
     },
     "platforms": {
-        "img_url":"/img/images/ecommerce-page-1.jpg",
+        "image":{
+            "url":"/img/images/ecommerce-page-1.jpg",
+            "alt":"Agencia especializada en ecommerce"
+        },
         "images": [
-            "/img/images/ecommerce-tiendanube.png",
-            "/img/images/ecommerce-woocommerce.png"
+            {
+                "url": "/img/images/ecommerce-tiendanube.png",
+                "alt": "Agencia especializada en tienda nube"
+            },
+            {
+                "url": "/img/images/ecommerce-woocommerce.png",
+                "alt": "Agencia especializada en desarrollo con woocommerce"
+            }
+            
         ],
         "content": [
             "Trabajamos con las plataformas más populares de la industria y también realizamos desarrollo a medida si es necesario.",

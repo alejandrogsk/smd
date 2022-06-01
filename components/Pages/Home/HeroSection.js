@@ -24,7 +24,9 @@ const HeroSection = ({ hero }) => {
                         {subtitle}
                     </p>
                     <a
-                        className="border-2 border-ui-orange-main rounded p-2
+                        className="
+                        border-2 border-ui-orange-main 
+                        rounded p-3
             bg-white
             hover:bg-ui-orange-main
             hover:text-white
@@ -32,6 +34,7 @@ const HeroSection = ({ hero }) => {
             ease-in-out duration-300
             inline-block
             shadow-lg
+            text-xl
             "
                     >
                         {button}

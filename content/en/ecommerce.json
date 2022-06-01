@@ -88,10 +88,19 @@
         "subtitle_two":"Hence the importance of mobile design in any ecommerce project."
     },
     "platforms": {
-        "img_url":"/img/images/ecommerce-page-1.jpg",
+        "image":{
+            "url":"/img/images/ecommerce-page-1.jpg",
+            "alt":"Agency specialized in e-commerce"
+        },
         "images": [
-            "/img/images/ecommerce-shopify.png",
-            "/img/images/ecommerce-woocommerce.png"
+            {
+                "url": "/img/images/ecommerce-shopify.png",
+                "alt": "Specialist shopify store development agency"
+            },
+            {
+                "url": "/img/images/ecommerce-woocommerce.png",
+                "alt": "Agency specialized in woocommerce development"
+            }
         ],
         "content": [
             "We work with the most popular platforms in the industry and also do custom development if required.",

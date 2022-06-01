@@ -11,10 +11,30 @@
     
         @screen md {
             grid-template-columns: repeat(3,1fr);
+
         }
+
+
     
         &--item {
-    
+            transition: all 300ms;
+            cursor: pointer;
+            @screen lg {
+                &:hover {
+                    transform: translateY(-15px)
+                    
+                }
+
+                &:hover > .blog-section__grid--content {
+                    background-color:theme('colors.ui.orange.main');
+
+                    &>h3,
+                    &>a,
+                    &>span{
+                        color:white;
+                    }
+                }
+            }
         }
     
         &--content {
@@ -26,6 +46,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             row-gap: 1rem;
+            transition: all 300ms;
     
             & > h3 {
                 grid-column: 1/3;

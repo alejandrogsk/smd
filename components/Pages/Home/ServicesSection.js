@@ -10,7 +10,7 @@ const ServicesSection = ({services}) => {
 
 
   return (
-    <section className='py-20 services-section'>
+    <section className='py-20 md:py-36 services-section'>
       <div className='mx-4 sm:mx-8  md:mx-12 mx:mx-20'>
         
       <h6 className='capitalize text-white text-lg md:text-xl l font-medium	 text-start	'>{before_title}</h6>

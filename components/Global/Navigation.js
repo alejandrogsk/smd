@@ -58,9 +58,11 @@ const NavigationDesktop = () => {
                         Ecommerce
                     </a>
                     </Link>
+                    <Link href="/websites">
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         Websites
                     </a>
+                    </Link>
                     <a className="mr-4 cursor-pointer hover:text-ui-orange-main ease-in-out duration-300">
                         Marketing
                     </a>
@@ -165,9 +167,11 @@ const NavigationMobile = () => {
                             </Link>
                         </li>
                         <li className="navbar__responsive--item">
-                            <a className="header__content--link" href="#">
-                                algun enlace
-                            </a>
+                        <Link href="/websites">
+                                <a className="header__content--link" href="#">
+                                    Websites
+                                </a>
+                            </Link>
                         </li>
                         <li className="navbar__responsive--item">
                             <a className="header__content--link" href="#">

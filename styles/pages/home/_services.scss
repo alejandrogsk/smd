@@ -1,5 +1,4 @@
 .services-section {
-    min-height: 100vh;
     background: theme('colors.ui.black');
     background-image: url('/img/images/home-bg-services.jpg');
     background-image: 
@@ -52,16 +51,18 @@
                 }
             }
 
-            &:hover &--img { 
-                & > img {
-                    transform: scale(1.2);
+            @screen lg {
+                &:hover &--img { 
+                    & > img {
+                        transform: scale(1.2);
+                    }
+    
+                    & > .hoverable {
+                        background-color: rgba(248, 69, 37, .5);
+                    }
+    
+    
                 }
-
-                & > .hoverable {
-                    background-color: rgba(248, 69, 37, .5);
-                }
-
-
             }
         }
 

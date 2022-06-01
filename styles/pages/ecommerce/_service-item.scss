@@ -1,7 +1,7 @@
 .ecommerce-service__item {
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-contnet, 1fr));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
     gap: .5rem;
     // align-content: baseline;
     & > img {
